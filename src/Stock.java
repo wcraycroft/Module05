@@ -1,3 +1,22 @@
+/* Stock.java
+ * Author:  William Craycroft
+ * Module:  5
+ * Project: Lab 5
+ * Description: This class stores stock information for a single company, including name, stock symbol and stock price.
+ *
+ *      Instance variables:
+ *          mCompanyName (String) - The company's name (e.g. Apple)
+ *          mStockSymbol (String) - The company's stock symbol (e.g APPL)
+ *          mStockPrice (Double) - The company's stock price in USD
+ *
+ *      Methods:
+ *          Constructors
+ *              Parameterized constructor - takes in company name, stock symbol and stock price
+ *          setters and getters for all instance variables
+ *          toString() - toString - returns String representation of Stock
+ *          equals(Object) - true if same object type and member variables are equal
+ */
+
 import java.text.NumberFormat;
 import java.util.Objects;
 
